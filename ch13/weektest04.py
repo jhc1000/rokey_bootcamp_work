@@ -1,7 +1,7 @@
 # weektest04.py
 
 #9-2
-
+print("hello")
 class Student:
     school = "High School"
 
