@@ -14,7 +14,7 @@ print('--------')
 
 #3
 movie_rank = ['하얼빈', '무파사:라이온킹', '소방관', '위키드']
-movie_rank.insert(3, '모아나2')
+movie_rank.insert(3, '모아나2') # insert() 하면 다른애들을 오른쪽으로 밀고 들어간다
 print(movie_rank)
 
 print('--------')
@@ -32,6 +32,8 @@ for i in nums:
     sum1 += i
 print(sum1) 
 
+# 솔루션
+print(sum(nums))
 print('--------')
 
 #6
@@ -46,6 +48,9 @@ t_list = list(t)
 t_list[0] = 'A'
 t = tuple(t_list)
 print(t)
+
+# 솔루션
+t = ('A', 'b', 'c')
 
 print('-------')
 
